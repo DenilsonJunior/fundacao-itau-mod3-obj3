@@ -1,0 +1,121 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-hide, next-hide, menu-hide)
+
+		header.wow.up
+			+image('logo.png', 'logo')
+
+		section.sec1
+			.flex
+				.boxText.left
+					h1 Educação Integral e Assistência Social: conexões e redes de direitos
+					p A intersetorialidade refere-se à integração dos setores responsáveis pela prestação de serviços, programas, projetos e benefícios sociais. <b>Visa a racionalização e a definição de processos institucionais que envolvem ações e estratégias conjuntas</b>.
+					p A intersetorialidade <b>é uma forma de materializar os princípios da concepção contemporânea em direitos humanos</b>, especialmente a integralidade e a indivisibilidade dos direitos e das atenções.
+				.img.right
+					+image('img01.png', '')
+					p Foto: Na foto original, não há nomes referenciando o autor e/ou fonte.
+		
+		section.sec2
+			h2.up Requisitos para Intersetorialidade:
+			.flex
+				.card.up
+					+image('ico01.png', 'ico')
+					p Planejamento Integrado
+				.card.up
+					+image('ico02.png', 'ico')
+					p Reuniões de Rede de Proteção
+				.card.up
+					+image('ico03.png', 'ico')
+					p Acompanhamento e Monitoramento das ações
+				.card.up
+					+image('ico04.png', 'ico')
+					p Capacitação integrada e fluxos operacionais
+				.card.up
+					+image('ico05.png', 'ico')
+					p Ações Educativas e Comunitárias
+				.card.up
+					+image('ico06.png', 'ico')
+					p Adoção de tecnologias e processos que facilitam a comunicação entre setores
+			.card.up
+				+image('ico07.png', 'ico')
+				p Diagnósticos Conjuntos e Gestão Integrada dos Territórios, para identificação de necessidades e potencialidades locais
+		
+		section.sec3
+			h2.up Exemplos de Estratégias <br> Intersetoriais para Intersetorialidade:
+			.flex
+				.card.up
+					p Oficinas Temáticas, abordando saúde coletiva, prevenção às drogas, direitos sexuais e reprodutivos, entre outros
+				.card.up
+					p Oficinas Temáticas, abordando saúde coletiva, prevenção às drogas, direitos sexuais e reprodutivos, entre outros
+				.card.up
+					p Rodas de Conversa, com discussões sobre problemas comunitários e potencialidades locais
+				.card.up
+					p Ações Integradas em Direitos Humanos, como a agenda de enfrentamento ao trabalho infantil, prevenção à violência, consciência negra, entre outros
+				.card.up
+					p Participação da Equipe do CRAS em atividades de planejamento escolares
+				.card.up
+					p Busca Ativa Escolar Integrada, visando reduzir distorção idade-série e infrequência escolar (baixa frequência de estudantes nas aulas ou  suspensão da frequência escolar)
+				.card.up
+					p Instituição de redes de proteção para estudos de caso, acompanhamento conjunto, encaminhamentos e ações preventivas de violações
+				.card.up
+					p Oferta de serviços, oficinas integradas, cursos profissionalizantes e de formação cidadã
+
+		section.sec4
+			.box
+				.card.cardLeft1.left
+					ul
+						li
+							p Previne sobreposições e fragmentação das ações
+						li
+							p Desenvolve processos colaborativos e participativos
+						li
+							p Melhora a qualidade dos serviços prestados
+						li
+							p Fortalece a participação ativa na gestão e na prestação de serviços
+				.card.cardRight1.right
+					ul
+						li
+							p Potencializa impactos sociais e uma formação integral
+						li
+							p Favorece uma abordagem ampla e holística de crianças e adolescentes, considerando necessidades, expectativas e potencialidades
+						li
+							p Facilita a oferta e o acesso ao conjunto de serviços complementares à educação, como saúde, assistência social, cultura e esporte
+						li
+							p Promove o desenvolvimento integral de crianças e adolescentes
+				.card.cardLeft2.left
+					ul
+						li
+							p Melhora o desempenho e permanência escolar, com respostas às necessidades sociais e emocionais
+						li
+							p Promove equidade e potencializa ações de enfrentamento das desigualdades e promoção das diversidades
+						li
+							p Amplia as possibilidades de redução das vulnerabilidades sociais e da pobreza multidimensional
+						li
+							p Permite o desenvolvimento de Competências Socioemocionais, essenciais para a formação integral e contextualizada de crianças e adolescentes
+				.card.cardRight2.right
+					ul
+						li
+							p Amplia possibilidades de desenvolvimento comunitário, do pertencimento e engajamento social
+						li
+							p Promove inovação e criatividade, pela adoção de novas abordagens e metodologias
+						li
+							p Potencializa a gestão mais eficiente de recursos públicos
+						li
+							p Operacionaliza uma educação que visa o desenvolvimento da educanda e do educando em uma perspectiva integral, o que implica considerar os saberes populares e comunitários no projeto pedagógico
+				.center.zoomIn
+					h2 Benefícios e resultados da Intersetorialidade para uma Educação Integral
+				
+				+image('line.png', 'line line1')
+				+image('line.png', 'line line2')
+				+image('line.png', 'line line3')
+				+image('line.png', 'line line4')
+		
+		footer.up
+			+image('logo-footer.png', 'imgFooter')
+
+block scripts
+	script(src="script.js")
